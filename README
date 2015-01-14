@@ -1,0 +1,1 @@
+fast poppler based "pdftk file.pdf dump_data output -" replacement mainly for table of content
