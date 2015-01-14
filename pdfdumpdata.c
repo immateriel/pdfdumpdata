@@ -93,6 +93,8 @@ int main(int argc, char* argv[])
   rootIter=poppler_index_iter_new(doc);
   walkIndex (doc,rootIter, 1);
   poppler_index_iter_free (rootIter);
-
+  
+  g_object_unref (doc);
+ 	
   return 0;     
 }
