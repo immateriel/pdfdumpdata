@@ -58,6 +58,7 @@ int main(int argc, char* argv[])
   PopplerIndexIter* rootIter;
 
   filename=argv[1];
+  g_type_init();
 
   if(!filename)
     return 1;
